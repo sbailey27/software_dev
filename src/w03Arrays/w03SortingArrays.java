@@ -1,7 +1,7 @@
 package w03Arrays;
 
 import javax.swing.JOptionPane;
-import java.util.Arrays;
+import java.util.Arrays; //library for arrays
 
 public class w03SortingArrays {
     public static void main (String[] args){
@@ -11,6 +11,7 @@ public class w03SortingArrays {
         //sort array
         Arrays.sort(myArray);
 
+        //iterate through array, listing each value at each position in the array
         output = "Array sorted: ";
         for (int loop =   0; loop < myArray.length; loop++){
             output = output + myArray[loop] + " ";
