@@ -25,4 +25,27 @@ public class Person {
         JOptionPane.showMessageDialog(null, output, "Details of person", JOptionPane.INFORMATION_MESSAGE);
     }
 
+    public int getAge(){
+        return this.age;
+    }
+
+    public void setAge(int age){
+        this.age = age;
+        }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(){
+        this.name = name;
+    }
+
+    public String address(){
+        return this.address;
+    }
+
+    public void setAddress(){
+        this.address = address;
+    }
 }
