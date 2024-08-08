@@ -8,6 +8,8 @@ public class Person {
     private int age;
 
     public Person(){}
+
+
     public String toString() {
         String output;
 
@@ -37,15 +39,15 @@ public class Person {
         return this.name;
     }
 
-    public void setName(){
+    public void setName(String name){
         this.name = name;
     }
 
-    public String address(){
+    public String getAddress(){
         return this.address;
     }
 
-    public void setAddress(){
+    public void setAddress(String address){
         this.address = address;
     }
 }
