@@ -9,6 +9,15 @@ public class Person {
 
     public Person(){}
 
+    public Person(String name, String address, int age){
+        this.name = name;
+        this.address = address;
+        this.age = age;
+    }
+
+    public Person(String name, int age){
+        this(name, "unknown:", age);
+    }
 
     public String toString() {
         String output;
